@@ -36,6 +36,7 @@ app.listen(4005, () => {
   console.log(`(${process.pid}) Event Bus Listening on 4005`);
 });
 
+//there are two versions of runnings this code, one by starting all the services induvidually and the other by using docker-compose up --build
 
 // const servicePorts = [
 //   {port: 4001, name: "genre"}, 
